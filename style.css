@@ -3,3 +3,52 @@
     margin: 0;
     font-family: sans-serif;
 }
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.divheader
+{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.inner2
+{
+    display: flex;
+    gap: 20px;
+}
+.inner4
+{
+    display: none;
+}
+.pcont
+{
+    background-color: #F5333F;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+@media(max-width: 510px){
+    .inner2
+    {
+        display: none;
+    }
+    .inner3
+    {
+        display: none;
+    }
+    .inner4
+    {
+        display: block;
+    }
+    
+}
