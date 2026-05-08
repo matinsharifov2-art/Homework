@@ -121,6 +121,35 @@
     flex-direction: column;
     row-gap: 50px;
 }
+.boxic2
+{
+    padding: 20px;
+    box-shadow: 0 0 10px 1px black;
+    width: 600px;
+    margin: 20px 0;
+    border-radius: 15px;
+
+    
+}
+.boxic02
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+    width: 600px;
+}
+.htest
+{
+    font-size: 60px;
+}
+.sec6
+{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+}
 
 
 
